@@ -33,5 +33,5 @@ Installation
         ],
         "github_link": "https://github.com/barentsen/amunra-sphinx-theme",
         "footer_text": "Created with ♥ by Geert Barentsen.",
-        "google_analytics": "UA-XXXXX-X"
+        "analytics_id": "UA-XXXXX-X"
     }
