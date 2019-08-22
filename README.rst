@@ -14,18 +14,17 @@ Installation
 
 1. Install the theme::
 
-    pip install sphinx_rtd_theme
+    pip install amunra-sphinx-theme
 
 2. Configure it in your Sphinx's `conf.py` configuration file
    as follows::
 
-    html_theme = "sphinx_rtd_theme"
+    html_theme = "amunra_sphinx_theme"
 
 3. Configure the theme options by adding the following snippet
    in your `conf.py` file::
 
     html_theme_options = {
-        "navbar_title": "ProjectName",
         "navbar_links": [
             ("Quickstart", "quickstart"),
             ("Tutorials", "tutorials/index"),
