@@ -28,15 +28,6 @@ p {
     margin-bottom: 1.5rem;
 }
 
-.lead {
-    font-size: 1.45rem;
-    line-height: 2rem;
-}
-
-.nav-item {
-    margin-left: 0.4em;
-}
-
 .btn-primary {
     background-color: #3498db;
     border-color: #3498db;
@@ -47,6 +38,41 @@ p {
     vertical-align: super;
     color: rgba(0, 0, 0, .5);
 }
+
+.github-icon {
+    margin-left: 1em;
+    vertical-align: middle;
+    fill: #495057;
+}
+
+div.footer {
+    padding-top: 2em;
+}
+
+
+/* Index page lead text */
+.lead {
+    text-align: center!important;
+    padding-top: 4rem;
+    padding-bottom: 3.5rem;
+}
+
+.lead p:nth-of-type(1) {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.lead p:nth-of-type(2) {
+    font-size: 1.45rem;
+    font-weight: 300;
+    padding-top: 1.86rem;
+}
+
+.lead .btn {
+    font-size: 1.25rem;
+    margin-top: 0.8rem;
+}
+
 
 /* Info boxes */
 div.admonition {
@@ -163,14 +189,4 @@ code.descname, code.descclassname {
 
 code.descname {
     font-size: 1.2em;
-}
-
-.github-icon {
-    margin-left: 1em;
-    vertical-align: middle;
-    fill: #495057;
-}
-
-div.footer {
-    padding-top: 2em;
 }

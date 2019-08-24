@@ -26,25 +26,37 @@
 <header>
 <nav class="navbar navbar-expand-lg navbar-light border-bottom">
   <div class="container">
-    <a class="navbar-brand" href="{{ pathto('index') }}">{{ project }} v{{ version }}</a>
+    <a class="navbar-brand" href="{{ pathto('index') }}">{{ navbar_title if navbar_title else project }} {{ version if version else release }}</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarsExample07">
+
+    {% if theme_navbar_links %}
+      <!-- Custom navbar -->
       <ul class="navbar-nav mr-auto">
-        {% if theme_navbar_links %}
-          {%- for link in theme_navbar_links %}
-            {% if pagename == link[1] %}
-            <li class="nav-item active">
-            {% else %}
-            <li class="nav-item">
-            {% endif %}
-              <a class="nav-link" href="{{ pathto(*link[1:]) }}">{{ link[0] }}</a>
-            </li>
-          {%- endfor %}
-        {% endif %}
+        {%- for link in theme_navbar_links %}
+          {% if pagename == link[1] %}
+          <li class="nav-item active">
+          {% else %}
+          <li class="nav-item">
+          {% endif %}
+            <a class="nav-link" href="{{ pathto(*link[1:]) }}">{{ link[0] }}</a>
+          </li>
+        {%- endfor %}
       </ul>
+    {% else %}
+      <!-- Use the standard sphinx toctree(), but add bootstrap styles. -->
+      {{ toctree(includehidden=True, maxdepth=1)
+          | replace("<ul>", "<ul class=\"navbar-nav mr-auto\">")
+          | replace("<ul class=\"", "<ul class=\"navbar-nav mr-auto ")
+          | replace("<li class=\"", "<li class=\"nav-item ")
+          | replace("<a class=\"", "<a class=\"nav-link ")
+          | replace("current", "current active")
+      }}
+
+    {% endif %}
 
         <form class="form-inline my-2 my-md-0" action="{{ pathto('search') }}" method="get">
             <input class="form-control" type="text" placeholder="Search" aria-label="Search" name="q" />
