@@ -6,8 +6,8 @@ from setuptools import setup
 # Prepare and send a new release to PyPI
 if "release" in sys.argv[-1]:
     os.system("python setup.py sdist")
-    os.system("twine upload dist/amunra-sphinx-theme*")
-    os.system("rm -rf dist/amunra-sphinx-theme*")
+    os.system("twine upload dist/amunra_sphinx_theme*")
+    os.system("rm -rf dist/amunra_sphinx_theme*")
     sys.exit()
 
 # Load the __version__ variable without importing the package already

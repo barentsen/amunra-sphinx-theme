@@ -56,8 +56,8 @@ Installation
         "analytics_id": "UA-XXXXX-X"
     }
 
-4. Create a new splash page for your project by including the following code
-   in your `index.rst` file::
+4. Optional: create a nice splash page for your project by including the
+   following code in your `index.rst` file::
 
     .. container:: lead
 
