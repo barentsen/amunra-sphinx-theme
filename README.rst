@@ -1,20 +1,22 @@
 Amunra-Sphinx-Theme
 ===================
 
-**A beautiful, responsive, minimalist theme for your Sphinx projects.**
+**A minimalist theme for Sphinx based on Bootstrap.**
 
 
 Summary
 -------
-Amunra provides a lightweight and easy-to-use theme for Sphinx based on Bootstrap.
-It features a minimalist top navigation bar which can be configured manually
-or using Sphinx's standard `toctree` mechanism.
+
+*Amunra* provides a lightweight, easy-to-use, and responsive theme for Sphinx based on Bootstrap.
+It features a minimalist top navigation bar which can be configured manually.
+By default, the bar will show the top-level entries of Sphinx's ``toctree`` directive.
 
 
 Demo
 ----
 
-See it in action at `docs.lightkurve.org <https://docs.lightkurve.org>`_.
+See it in action at `docs.lightkurve.org <https://docs.lightkurve.org>`_,
+and inspect that website's source code at `github.com/KeplerGO/lightkurve/tree/master/docs <https://github.com/KeplerGO/lightkurve/tree/master/docs>`_.
 
 
 Installation
@@ -33,14 +35,39 @@ Installation
    in your `conf.py` file::
 
     html_theme_options = {
+        # Title shown in the top left. (Default: ``project`` value.)
         "navbar_title": "Amunra",
+
+        # Links to shown in the top bar. (Default: top-level ``toctree`` entries.)
         "navbar_links": [
             ("Quickstart", "quickstart"),
             ("Tutorials", "tutorials/index"),
             ("API", "api/index"),
             ("About", "about/index"),
         ],
+
+        # If ``github_link`` is set, a GitHub icon will be shown in the top right.
         "github_link": "https://github.com/barentsen/amunra-sphinx-theme",
+
+        # Text to show in the footer of every page.
         "footer_text": "Created with ♥ by Geert Barentsen.",
+
+        # Google Analytics ID. (Optional.)
         "analytics_id": "UA-XXXXX-X"
     }
+
+4. Create a new splash page for your project by including the following code
+   in your `index.rst` file::
+
+    .. container:: lead
+
+       Your-Project-Title
+
+        A short description of your project.
+
+        .. raw:: html
+
+            <a href="quickstart.html" class="btn btn-primary">Quickstart →</a>
+
+    ----------
+
