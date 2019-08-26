@@ -7,7 +7,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <!-- Load the theme's CSS. -->
-    <link rel="stylesheet" href="{{ pathto('_static/css/theme.css', 1) }}" type="text/css" />
+    <link rel="stylesheet" href="{{ pathto('_static/css/amunra.css', 1) }}" type="text/css" />
 
     {% if theme_analytics_id %}
       <!-- Google Analytics -->
@@ -58,7 +58,7 @@
 
     {% endif %}
 
-        <form class="form-inline my-2 my-md-0" action="{{ pathto('search') }}" method="get">
+        <form class="form-inline my-2 my-md-0 ml-auto" action="{{ pathto('search') }}" method="get">
             <input class="form-control" type="text" placeholder="Search" aria-label="Search" name="q" />
         </form>
 

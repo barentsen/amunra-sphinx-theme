@@ -1,0 +1,4 @@
+include README.rst LICENSE
+include amunra_sphinx_theme/*
+include amunra_sphinx_theme/static/*
+include amunra_sphinx_theme/static/css/*
