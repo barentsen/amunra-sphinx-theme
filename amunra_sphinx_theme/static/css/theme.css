@@ -39,6 +39,10 @@ p {
     color: rgba(0, 0, 0, .5);
 }
 
+.nav-item {
+    margin-left: 0.4em;
+}
+
 .github-icon {
     margin-left: 1em;
     vertical-align: middle;
@@ -53,8 +57,8 @@ div.footer {
 /* Index page lead text */
 .lead {
     text-align: center!important;
-    padding-top: 4rem;
-    padding-bottom: 3.5rem;
+    padding-top: 4.4rem;
+    padding-bottom: 4rem;
 }
 
 .lead p:nth-of-type(1) {
