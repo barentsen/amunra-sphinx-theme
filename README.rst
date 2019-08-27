@@ -1,13 +1,15 @@
 Amunra-Sphinx-Theme
 ===================
 
-**A minimalist theme for Sphinx based on Bootstrap.**
-
+.. image:: https://raw.githubusercontent.com/barentsen/amunra-sphinx-theme/master/docs/_static/images/amunra-preview.png
+  :width: 400
+  :alt: Amunra-Sphinx-Theme preview
+  :target: https://barentsen.github.io/amunra-sphinx-theme/
 
 Summary
 -------
 
-*Amunra* provides a lightweight, easy-to-use, and responsive theme for Sphinx based on Bootstrap 4.
+*Amunra* provides a lightweight, easy-to-use, responsive theme for Sphinx based on Bootstrap 4.
 It features a minimalist top navigation bar which can be configured manually
 or using Sphinx's standard ``toctree`` directive.
 
