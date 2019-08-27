@@ -3,6 +3,10 @@ Amunra-Sphinx-Theme
 
 **A minimalist theme for Sphinx based on Bootstrap.**
 
+.. image:: https://raw.githubusercontent.com/barentsen/amunra-sphinx-theme/master/docs/_static/images/amunra-preview.png
+  :width: 400
+  :alt: Amunra-Sphinx-Theme preview
+  :target: https://barentsen.github.io/amunra-sphinx-theme/
 
 Summary
 -------
