@@ -7,7 +7,7 @@ Amunra-Sphinx-Theme
 Summary
 -------
 
-*Amunra* provides a lightweight, easy-to-use, and responsive theme for Sphinx based on Bootstrap.
+*Amunra* provides a lightweight, easy-to-use, and responsive theme for Sphinx based on Bootstrap 4.
 It features a minimalist top navigation bar which can be configured manually.
 By default, the bar will show the top-level entries of Sphinx's ``toctree`` directive.
 
@@ -15,8 +15,10 @@ By default, the bar will show the top-level entries of Sphinx's ``toctree`` dire
 Demo
 ----
 
-See it in action at `docs.lightkurve.org <https://docs.lightkurve.org>`_,
-and inspect that website's source code at `github.com/KeplerGO/lightkurve/tree/master/docs <https://github.com/KeplerGO/lightkurve/tree/master/docs>`_.
+See the theme in action here:
+
+* `<https://barentsen.github.io/amunra-sphinx-theme/>`_ (`view source code <https://github.com/barentsen/amunra-sphinx-theme/tree/master/docs>`_)
+* `<https://docs.lightkurve.org/>`_ (`view source code <https://github.com/KeplerGO/lightkurve/tree/master/docs>`_)
 
 
 Installation
