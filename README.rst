@@ -8,8 +8,8 @@ Summary
 -------
 
 *Amunra* provides a lightweight, easy-to-use, and responsive theme for Sphinx based on Bootstrap 4.
-It features a minimalist top navigation bar which can be configured manually.
-By default, the bar will show the top-level entries of Sphinx's ``toctree`` directive.
+It features a minimalist top navigation bar which can be configured manually
+or using Sphinx's standard ``toctree`` directive.
 
 
 Demo
