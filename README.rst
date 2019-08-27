@@ -19,8 +19,8 @@ Demo
 
 See the theme in action here:
 
-* `<https://barentsen.github.io/amunra-sphinx-theme/>`_ (`view source code <https://github.com/barentsen/amunra-sphinx-theme/tree/master/docs>`_)
-* `<https://docs.lightkurve.org/>`_ (`view source code <https://github.com/KeplerGO/lightkurve/tree/master/docs>`_)
+* `<https://barentsen.github.io/amunra-sphinx-theme/>`_ (`view source <https://github.com/barentsen/amunra-sphinx-theme/tree/master/docs>`__)
+* `<https://docs.lightkurve.org/>`_ (`view source <https://github.com/KeplerGO/lightkurve/tree/master/docs>`__)
 
 
 Installation
