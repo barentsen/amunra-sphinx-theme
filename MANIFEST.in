@@ -1,4 +1,5 @@
-include README.rst LICENSE
+include README.rst LICENSE MANIFEST.in
 include amunra_sphinx_theme/*
 include amunra_sphinx_theme/static/*
 include amunra_sphinx_theme/static/css/*
+include docs/* docs/_static/images/*
