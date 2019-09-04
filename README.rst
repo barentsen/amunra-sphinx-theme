@@ -21,7 +21,7 @@ See the theme in action here:
 
 * `<https://barentsen.github.io/amunra-sphinx-theme>`_ (`view source <https://github.com/barentsen/amunra-sphinx-theme/tree/master/docs>`__)
 * `<https://docs.lightkurve.org>`_ (`view source <https://github.com/KeplerGO/lightkurve/tree/master/docs>`__)
-* `<https://mirca.github.io/riskparity.py>_ (`view source <https://github.com/mirca/riskparity.py/tree/master/docs>`_)
+* `<https://mirca.github.io/riskparity.py>`_ (`view source <https://github.com/mirca/riskparity.py/tree/master/docs>`_)
 
 
 Installation
