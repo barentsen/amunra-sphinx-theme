@@ -114,8 +114,8 @@ p.admonition-title {
 
 /* prevent notebook images from expanding too wide */
 .nboutput img {
-    max-width: 560px;
-    height: auto;
+    max-width: 90%;
+    height: auto !important;
 }
 
 /* code blocks */
