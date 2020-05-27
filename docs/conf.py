@@ -10,7 +10,7 @@ version = ".".join(release.split('.')[:2])  # shorter X.Y version
 
 # .nojekyll prevents GitHub from hiding the `_static` dir
 #sys.path += ['exts']
-extensions = ['sphinxcontrib.rawfiles, sphinx.ext.mathjax']
+extensions = ['sphinxcontrib.rawfiles', 'sphinx.ext.mathjax']
 rawfiles = ['.nojekyll']
 
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
