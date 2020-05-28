@@ -1,13 +1,12 @@
 {% extends "basic/layout.html" %}
+{% set css_files = ["https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css",
+                    "_static/css/amunra.css"]
+                    + css_files %}
 
 {%- block extrahead %}
-    <!-- Load Bootstrap CSS and Javascript (Javascript is needed for the navbar toggle) -->
+    <!-- Load Bootstrap viewport and Javascript (Javascript is needed for the navbar toggle) -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-    <!-- Load the theme's CSS. -->
-    <link rel="stylesheet" href="{{ pathto('_static/css/amunra.css', 1) }}" type="text/css" />
 
     {% if theme_analytics_id %}
       <!-- Google Analytics -->
