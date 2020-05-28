@@ -18,6 +18,10 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_static_path = ['_static']
 
+# If you want to override the theme style, create a file named
+# "_static/custom.css" and uncomment the line below to activate:
+# html_css_files = ['custom.css']
+
 html_theme = 'amunra_sphinx_theme'
 
 html_theme_options = {
